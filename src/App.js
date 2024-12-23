@@ -1,4 +1,4 @@
-import tree from './pngwing.com.png';
+
 import './App.css';
 import {useState, useEffect} from "react";
 
@@ -27,7 +27,6 @@ function App() {
             setCords([])
         }
     }
-
     useEffect(() => {
     }, [getDivs])
 
